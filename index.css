@@ -1,0 +1,161 @@
+
+html, body {
+    padding: 0;
+    margin: 0;
+  }
+  body {
+    background-color: #faf7f5;
+}
+@font-face {
+    font-family: "myfont";
+    src: url("Proxima\ Nova\ Regular.woff") format('woff');
+}
+html {
+    scroll-behavior: smooth;
+    font-family:"myfont";
+}
+#heading {
+    color: #6f75d1;
+}
+/* BEGINNING OF NAV BAR */
+#nav {
+   /* border: 1px solid blue;*/
+    box-shadow: 0 4px 3px -2px gray;
+}
+#nav ul {
+  list-style-type: none;
+  margin-top: 0em;
+  padding: 0;
+  overflow: hidden;
+}
+#nav ul li {
+  float: right;
+}
+#nav ul li a {
+  display: block;
+  color: gray;
+  text-align: center;
+  padding: 1.5em 3em;
+  letter-spacing: 0.05em;
+  text-decoration: none;
+  /* good green: 80CFA9 */
+}
+#initial-msg {
+    text-align: center;
+    margin-top: 10%;   
+    color: #7e7f9a;
+}
+#nav ul li a:hover {
+    color: #dea128;
+   
+}
+#logo {
+    padding:0;
+    font-size:2em;
+    margin:0;
+    margin-top:0.3em;
+    margin-left:0.5em; 
+    color: #7e7f9a;
+    /*text-shadow: 2px 2px 7px #63c1d4;
+    color: #F87666;
+    text-shadow: 2px 2px 7px #F87666;*/
+}
+/* END OF THE NAV BAR */
+/* START OF MAIN CONTENT */
+#main-content {
+    /*border: 1px solid red;*/
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center
+}
+#heading {
+    font-size:3em;
+}
+form {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    /*border: 1px solid green; */  
+}
+#search-box-div {
+    width:20em;
+    height:3em;
+    
+    border-radius: 10px;
+    position: relative;
+    background-color: #ebeef2;
+}
+::placeholder {
+    color:gray;
+}
+
+#search-box {
+    font-size:1em;
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    top:30%;
+    left:5%;
+    color: gray;
+}
+#search-box:focus {
+    outline:none;
+}
+#search-btn {
+    float:right;
+    font-size:2em;
+    border: none;
+    background-color: transparent;
+}
+#search-btn:hover {
+    cursor: pointer;
+}
+/* START OF CELL STYLING */
+#output {
+    /*border: 1px solid purple;*/
+    list-style-type:none;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #e3e3e3;
+    border-radius: 20px;
+    margin-left:15%;
+    margin-right:15%;
+}
+.cell {
+    text-align: left;
+    position: relative; 
+    border-top: 1px solid gray; 
+    width:70%;
+    height: 6em;
+    padding: 2em 3em;
+}
+.item-name {
+    margin-left: 5%;
+    font-size: 1.5em;
+    color: #7e7f9a
+}
+.item-price {
+    position: absolute;
+    font-size:1.5em;
+    top: 15%;
+    right: 10%;
+    color: #538bc2;
+}
+.item-desc {
+    margin-left: 5%;
+}
+.item-link {
+    text-decoration: none;
+    color: #dea128
+}
+/* END OF CELL STYLING 
+.item-link {
+    display: block;
+    position: static;
+    margin-left: 5%;
+    border: 1px solid black;
+    border-radius: 3px;
+    padding: 2px;
+}*/

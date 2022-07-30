@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title></title>
+</head>
+<body>
+    <div id='header'>
+        <div id="nav">
+            <ul>
+                <li><a href="about.html">about</a></li>
+                <li><a target='_blank' href="https://fivehacks.devpost.com/">fivehacks</a></li>
+                <li><a href="index.html">home</a></li>
+                <li style="float:left;padding-left:2em;"><p id="logo">name</p></li>
+            </ul>
+        </div>
+    </div>
+    <div id='main-content'>
+        <h1 id='heading'>Our Project Name - Search Engine</h1>
+        <form onsubmit='submitForm(); return false;'>
+            <div id='search-box-div'><input type='text' placeholder='Search Item Here' id='search-box'>
+                <input type='button' id='search-btn' value='&#128269;'></div>
+        </form>
+        <ul id='output'>
+            
+            <!--<li class='cell'>
+                <h2 class='item-name'>sample name</h2>
+                <p class='item-price'>$99</p>
+                <p class='item-desc'>desc. will be inserted here</p>
+            </li>
+            <li class='cell'>
+                <h2 class='item-name'>sample name</h2>
+                <p class='item-price'>$99</p>
+                <p class='item-desc'>desc. will be inserted here</p>
+            </li>-->
+        </ul>
+        <p id='initial-msg'>Search for a grocery item to get started!</p>
+
+    </div>
+    <div id='footer'>
+
+    </div>
+    <script src='index.js'></script>
+</body>
+</html>
