@@ -8,7 +8,7 @@ html, body {
 }
 @font-face {
     font-family: "myfont";
-    src: url("Proxima\ Nova\ Regular.woff") format('woff');
+    src: url("./Proxima_Nova_Regular.woff") format('woff');
 }
 html {
     scroll-behavior: smooth;
